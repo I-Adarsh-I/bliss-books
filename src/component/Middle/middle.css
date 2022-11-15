@@ -1,0 +1,135 @@
+.m1 {
+    height: 100vh;
+    width: 100%;
+    /* top: 0;
+    left: 0;
+    padding: 0; */
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+ .left{
+    /* background-color: aqua; */
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+} 
+.right{
+    width: 33.3%;
+    /* background-color: rgb(144, 176, 145); */
+    display: flex;
+    justify-content: center;
+}
+.mid{
+    width: 33.3%;
+}
+.upper{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(104, 89, 89); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 35px;
+    color: #e0e0e0;
+}
+.circles{
+    width: auto;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.circle1a{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 10px solid rgb(246, 244, 244);
+    background-color: rgba(0, 0, 0, 0.771);
+}
+.circle2{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 10px solid rgba(252, 252, 252, 0.962);
+    background-color: #edf2ef;
+}
+.circle_para{
+    /* background-color: maroon; */
+    align-items: center;
+    font-size: 6rem;
+    color: aliceblue;
+}
+.line_box{
+    width:100%;
+    height: 115px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* background-color: black; */
+}
+.line{ 
+    display: flex;
+    height: 110px;
+    width: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #edf2ef;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .upper{
+        width: 100%;
+        height: 80px;
+        font-size: 25px;
+    }
+  }
+  
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .upper{
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+    }
+    .circle1a{
+        height: 200px;
+        width: 200px;
+    }
+    .circle2{
+        height: 100px;
+        width: 100px;
+    }
+    .circle_para{
+        font-size: 4rem;
+    }
+  }
+@media screen and (max-width: 481px) and (min-width: 375px) {
+    .upper{
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+    }
+    .circle1a{
+        height: 150px;
+        width: 150px;
+    }
+    .circle2{
+        height: 75px;
+        width: 75px;
+    }
+    .circle_para{
+        font-size: 3rem;
+    }
+  }
